@@ -1,4 +1,3 @@
-from .TwoStage import TwoStage
+from .CSKDet import CSKDet
 from .ResUNet50 import ResUNet
-from .UNet import UNet
 from .HRNet import HRNet
