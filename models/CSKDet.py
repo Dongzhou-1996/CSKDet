@@ -35,7 +35,7 @@ class Up(nn.Module):
         x = self.conv(x)
         return x
 
-class TwoStage(nn.Module):
+class CSKDet(nn.Module):
     def __init__(self,
                  detach,
                  num_classes: int =  16,
@@ -48,7 +48,7 @@ class TwoStage(nn.Module):
                  resnet: bool = True,
 
                  ):
-        super(TwoStage, self).__init__()
+        super(CSKDet, self).__init__()
         if resnet:
             self.backbone = ResNet50()
         else:
