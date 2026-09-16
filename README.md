@@ -3,7 +3,7 @@
 This is the repository for the **Paper:** [Cross-category Spacecraft Keypoints Detection Method with Visual Feature Prompts](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c250472?viewType=HTML), published in **Acta Automatica Sinica (自动化学报)**.
 
 <p align="center">
-  <img src="./overview.png" width="1000">
+  <img src="./CSKDet.png" width="1000">
 </p>
 
 ## Summary
