@@ -1,8 +1,13 @@
 # CSKDet
 
-**Paper:** [Cross-category Spacecraft Keypoints Detection Method with Visual Feature Prompts](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c250472?viewType=HTML)
+This is the repository for the **Paper:** [Cross-category Spacecraft Keypoints Detection Method with Visual Feature Prompts](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c250472?viewType=HTML), published in **Acta Automatica Sinica (自动化学报)**.
 
-**Abstract:** Spacecraft visual pose estimation is the technical core of intelligent on-orbit services, often implemented through a two-stage approach that combines keypoint detection and pose solver. However, existing spacecraft keypoint detection methods are typically trained using visual data from a single spacecraft, making them inapplicable to other types of spacecraft targets. This significantly hinders the promotion and application of space on-orbit services. To address this issue, this paper proposes a cross-category spacecraft keypoint detection method based on visual feature prompts, named as CSKDet (cross-category spacecraft keypoints detector). When applied to a new target spacecraft of an unknown category, this method only requires one support image and its corresponding keypoint annotations to accurately predict the positions of the target spacecraft's keypoints in a query image. To further validate the effectiveness of the proposed method, a spacecrafts pose estimation (SPE) dataset, was constructed using a virtual simulation platform. This dataset includes various types of spacecraft, annotated with 2D keypoints and 3D pose labels. Extensive experiments conducted on this dataset demonstrate that the proposed method excels in cross-category spacecraft keypoint detection tasks, significantly outperforming current mainstream keypoint detection approaches. Moreover, when combined with traditional PnP algorithms, this method enables high-precision pose estimation for arbitrary spacecraft. 
+## Summary
+CSKDet is a cross-category spacecraft keypoint detection method based on visual feature prompts. Unlike conventional spacecraft keypoint detection methods that are trained for a specific spacecraft category, CSKDet can generalize to previously unseen spacecraft categories using only one support image with corresponding keypoint annotations. Given a support image and a query image, the model predicts the keypoint positions of the target spacecraft in the query image.
+
+To evaluate the proposed method, we constructed a Spacecraft Pose Estimation (SPE) dataset using a virtual simulation platform, covering multiple types of spacecraft with 2D keypoint and 3D pose annotations. Extensive experiments demonstrate the effectiveness of CSKDet for cross-category spacecraft keypoint detection and its potential for high-precision pose estimation when combined with conventional PnP algorithms.
+
+The source code of CSKDet is open-sourced in this repository.
 
 ## Getting Started
 ### Conda Environment
